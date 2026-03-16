@@ -6,17 +6,17 @@ function formatDate(date) {
 function Avatar({ user }) {
   return (
     <>
-      {/* <img className="Avatar" src={user.avatarUrl} alt={user.name} /> */}
-      <img className="Avatar" {...user} />
+      <img className="Avatar" src={user.avatarUrl} alt={user.name} />
+      {/* <img className="Avatar" {...user} /> */}
     </>
   );
 }
-function UserInfo({ author }) {
+function UserInfo({ user }) {
   return (
     <>
       <div className="UserInfo">
-        <Avatar user={author} />
-        <div className="UserInfo-name">{author.name}</div>
+        <Avatar user={user} />
+        <div className="UserInfo-name">{user.name}</div>
       </div>
     </>
   );
@@ -28,7 +28,7 @@ function Comment({ date, text, author }) {
         <Avatar author={author} />
         <div className="UserInfo-name">{author.name}</div>
       </div> */}
-      <UserInfo author={author} />
+      <UserInfo user={author} />
       <div className="Comment-text">{text}</div>
       <div className="Comment-date">{formatDate(date)}</div>
     </div>
