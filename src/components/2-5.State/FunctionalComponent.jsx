@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 function FunctionalComponent() {
-  const [date, setDate] = useState(() => new Date());
+  const [date, setDate] = useState(new Date());
 
   const tick = () => {
     setDate(new Date());
