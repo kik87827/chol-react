@@ -10,6 +10,8 @@ import List from './components/2-9.List/List';
 import ControlledComponent from './components/2-10.Form/ControlledComponent';
 import ControlledComponent2 from './components/2-10.Form/ControlledComponent2';
 import UncontrolledComponent from './components/2-10.Form/UncontrolledComponent';
+import Reducer from './components/3-3.Hooks/Reducer';
+import State from './components/3-3.Hooks/State';
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
       <Condition /> */}
       {/* <ControlledComponent /> */}
       {/* <UncontrolledComponent /> */}
-      <ControlledComponent2 />
+      {/* <ControlledComponent2 /> */}
+      <State />
+      <Reducer />
     </div>
   );
 }
