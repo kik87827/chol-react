@@ -12,11 +12,15 @@ import ControlledComponent2 from './components/2-10.Form/ControlledComponent2';
 import UncontrolledComponent from './components/2-10.Form/UncontrolledComponent';
 import Reducer from './components/3-3.Hooks/Reducer';
 import State from './components/3-3.Hooks/State';
+import List2 from './components/2-9.List/List2';
+import ControlledComponent3 from './components/2-10.Form/ControlledComponent3';
+import ControlledComponent4 from './components/2-10.Form/ControlledComponent4';
+import UncontrolledComponent2 from './components/2-10.Form/UncontrolledComponent2';
 
 function App() {
   return (
     <div className="App">
-      {/* <List /> */}
+      {/* <List2 /> */}
       {/* <FunctionalComponent />
       <ClassComponent />
       <Composition />
@@ -27,8 +31,10 @@ function App() {
       {/* <ControlledComponent /> */}
       {/* <UncontrolledComponent /> */}
       {/* <ControlledComponent2 /> */}
-      <State />
-      <Reducer />
+      <ControlledComponent4 />
+      {/* <UncontrolledComponent2 /> */}
+      {/* <State />
+      <Reducer /> */}
     </div>
   );
 }
